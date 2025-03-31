@@ -17,7 +17,7 @@ void merge(int arr[], int start, int mid, int end)
 	int i = start, j = mid+1;
 	while(i <= mid && j <= end)
 	{
-		if(arr[i] >= arr[j]) A[a++] = arr[i++];
+		if(arr[i] >= arr[j]) A[a++] = arr[i++]; //Changes this condition makes it descending to ascending order
 		
 		else A[a++] = arr[j++];
 	}
